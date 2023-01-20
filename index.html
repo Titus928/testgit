@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex exemple</title>
+    <style type="text/css">
+        .parent{
+            display: flex;
+        }
+
+        @media only screen and (max-width : 600px) {
+            .parent{
+                flex-direction : column;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Page avec du flex</h1>
+    <div class="parent">
+        <div class="enfant">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eos molestias et natus possimus quos consectetur soluta? Impedit aperiam fugiat quasi illo, id dignissimos iste, rem culpa reprehenderit quam deserunt.</div>
+        <div class="enfant">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eos molestias et natus possimus quos consectetur soluta? Impedit aperiam fugiat quasi illo, id dignissimos iste, rem culpa reprehenderit quam deserunt.</div>
+        <div class="enfant">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eos molestias et natus possimus quos consectetur soluta? Impedit aperiam fugiat quasi illo, id dignissimos iste, rem culpa reprehenderit quam deserunt.</div>
+    </div>
+
+</body>
+</html>
